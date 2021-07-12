@@ -1,0 +1,17 @@
+.container{
+    background-color: azure;
+    width: 90%;
+    align-self: center;
+    height: 100vh;
+    margin: auto;
+    padding: 2rem;
+    align-items: center;
+}
+
+.text{
+    width: 80%;
+    margin: auto;
+    margin-left: 7rem;
+    padding: 1rem;
+    height: 10rem;
+}
