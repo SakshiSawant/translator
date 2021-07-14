@@ -1,5 +1,15 @@
 var translateButton = document.querySelector('#btn-translate');
+var inputText = document.querySelector('#textinput');
+var output = document.querySelector('#output');
 
-translateButton.addEventListener('click', function(){
-    console.log('Hello');
+
+
+function clickHandler(){
+    output.innerText = 'This is Awesome!' + inputText.value;
+}
+
+translateButton.addEventListener('click',clickHandler)
+
+inputText.addEventListener('click', function(){
+    console.log('Input');
 })
