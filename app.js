@@ -2,7 +2,7 @@ var translateButton = document.querySelector('#btn-translate');
 var inputText = document.querySelector('#textinput');
 var output = document.querySelector('#output');
 
-var serverURL = "https://api.funtranslations.com/translate/minion.json";
+var serverURL = "https://api.funtranslations.com/translate/ferb-latin.json";
 
 function getTranslationText(text){
     inputURL = serverURL + "?" + "text=" + text;
