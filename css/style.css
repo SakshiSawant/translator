@@ -57,3 +57,43 @@ h2{
 .output-txt{
     border: 2px solid #000000;
 }
+
+@media only screen and (max-width : 992px){
+
+    nav h1{
+        padding: 0.5rem;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .container{
+        width: 98%;
+        margin-top: 1rem;
+        padding: 0.5rem;
+    }
+
+    .text{
+        width: 85%;
+        height: 10rem;
+        margin-left: 0;
+        padding: 1rem;
+    }
+    button{
+        display: block;
+        background-color: #1D4ED8;
+        color: #ffffff;
+        font-size: 1.5rem;
+        margin-left: 0;
+        padding: 0.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 2px solid #1D4ED8;
+    }
+
+    h2{
+        margin-left: 0rem;
+    }
+    
+
+    
+}
